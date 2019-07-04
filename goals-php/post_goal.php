@@ -21,5 +21,6 @@ if(mysqli_query($link, $sql)){
     print("Got 'Em!!");
 } else {
      print("Wuh Woah!")
-
 }
+
+?>
