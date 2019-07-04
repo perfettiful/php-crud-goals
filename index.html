@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Goals For Moles</title>
+</head>
+
+<body>
+    <h1>New Goals</h1>
+    <form action="insert_goal.php" method="post">
+
+        <label for="cat">Category</label>
+        <select name="cat" id="cat">
+            <option value="0">Personal</option>
+            <option value="1">Professional</option>
+            <option value="2">Other</option>
+        </select>
+
+        <label for="text">Goal</label>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+
+        <label for="globaldate">Date</label>
+        <input type="date" name="globaldate" id="globaldate">
+        <label for="complete">Goal Completed</label>
+        <input type="checkbox" id="complete" name="complete" value="1">
+        <button type="submit">Submit Goal</button>
+    </form>
+</body>
+
+</html>
